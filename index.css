@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .logo{
+    position: absolute;
+    left: 1100px;
+    bottom: 740px;
+    border: none;
+  }
+  .txt_cadastro_de-usuario{
+    font-family: Poppins;
+    font-weight: 700;
+    position: absolute;
+    left: 1150px;
+    bottom: 750px;
+    font-size: 100px;
+    letter-spacing: 10px;  
+  }  
+  .container_txt_inicial{
+    position: absolute;
+    left: 1150px;
+    bottom: 700px;
+    width: 300px;
+  } 
+  .imagem_component2{
+    position: relative;
+    left: 16px;
+  }
+  
+  .imagem_component3{
+    position: fixed;
+    border: none;
+    left: 0px;
+    bottom: 45px;
+  
+  }
+
+  .icones{
+    position: absolute;
+    left: 1200px;
+    top: 190px;
+  }
+  
+  .form-cadastro{
+    position: absolute;
+    left: 1045px;
+    bottom: 330px;
+    line-height: 10px;
+  }
+  
+  .container-botão{
+    position: absolute;
+    left: 1200px;
+    bottom: 90px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .botão{
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-family: Poppins;
+    border-radius: 70px;
+    font-size: 25px;
+    font-weight: 1000;
+    height: 57px;
+    width: 220px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+    bottom: 120px;
+    text-decoration: none;
+  }
+  
+  .botão:hover{
+    color: black;
+    background-color: white;
+    border: none;
+    stroke: none;
+  }
+  
+  .botão:focus{
+    outline: none;
+  }
+  
+  .input_style{
+    display: block;
+    font-weight: 500;
+    font-family: Poppins;
+    padding-top: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    line-height: 1.2;
+    color: black;
+    background-color: transparent;
+    margin: 0;
+    height: 45px;
+    width: 500px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+  }
+  
+  .input_style:focus{
+    outline: 0;
+  }
+  
+  .focus_input{
+    display: block;
+    width: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+  }
+  
+  .input_style::placeholder{
+    padding: 0%;
+  }
+  
+  .paragrafo_request{
+    display: block;
+    position: absolute;
+    left: 1049px;
+    bottom: 295px;
+    text-decoration-line: underline;
+    font-family: ABeeZee;
+    font-size: 16px;
+  }
+  
+  .link{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .link:hover{
+    color: blue;
+  }
+  
+  .aDUbutao{
+    text-decoration: none;
+    color: white;
+  }
